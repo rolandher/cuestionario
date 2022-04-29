@@ -29,7 +29,7 @@ public class Opciones {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private int idQuestion;
-    private String statement;
+    private String name;
     private boolean optionCorrect;
 
     
